@@ -18,7 +18,7 @@ public enum MySQLConnection {
         }
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost/PERSONS_DATABASE?user=root&password=admin");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost/PERSONS_DATABASE?user=root&password=Cesare1986");
         } catch (SQLException e) {
             throw new RuntimeException("something wrong", e);
         }
